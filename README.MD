@@ -1,6 +1,6 @@
 # Отчёт о тестировании CreditCardNumberValidator
 
-### Краткое описание
+## Краткое описание
 20.01.2022 - 21.01.2022 было проведено функциональное тестирование приложения Homework1(2)-java.
 
 На тестирование затрачено: 0,5 часа
@@ -8,29 +8,37 @@
 В результате тестирования выявлен дефект: не проходят валидацию карты платежной системы American Express (AmEx)
 
 
-### Описание процесса тестирования
+## Описание процесса тестирования
 
-###### В процессе тестирования использовались следующие артефакты:
+В процессе тестирования использовались следующие артефакты:
 
-[Баг-репорт](https://github.com/Adjikaaa/CreditCardNumberValidator/issues/1#issue-1110883267)
+* [Баг-репорт](https://github.com/Adjikaaa/CreditCardNumberValidator/issues/1#issue-1110883267)
 
-###### В качестве тестовых данных использовались данные [Задачи 2](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer) :
+В качестве тестовых данных использовались данные [Задачи 2](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/MERGED.md#%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---money-transfer) :
 
-Сгенерированные номера карт на [специальном сервисе](https://fakepersongenerator.com/credit-card-generator):
-* 4094300364227127 visa
-* 4564620988107582 visa
-* 5300275507215501 mastercard
-* 5301713072330718 mastercard
-* 6011110977629287 discover
-* 3548034504431232 jcb
-* 343682649215671 american express
-* 379496779182792 american express
+* Сгенерированные номера карт на [специальном сервисе](https://fakepersongenerator.com/credit-card-generator):
+ 
+4094300364227127 visa
 
-###### Ожидаемый результат:
+ 4564620988107582 visa
+
+5300275507215501 mastercard
+
+ 5301713072330718 mastercard
+
+ 6011110977629287 discover
+
+ 3548034504431232 jcb
+
+ 343682649215671 american express
+
+ 379496779182792 american express
+
+* Ожидаемый результат:
 Номер карты проходит валидацию с результатом "Result is OK"
 
-###### Тестирование производилось в следующем окружении:
+Тестирование производилось в следующем окружении:
 
-1. ОС: Windows 10 Pro, версия 21H1, 64-разрядная операционная система, процессор x64
-1. версия Java: 11
-1. IntelliJ IDEA 2020.3.3 Ultimate edition
+* ОС: Windows 10 Pro, версия 21H1, 64-разрядная операционная система, процессор x64
+* версия Java: 11
+* IntelliJ IDEA 2020.3.3 Ultimate edition
